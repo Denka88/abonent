@@ -92,4 +92,17 @@ public class Abonent {
         this.debt = debt;
     }
 
+    @Override
+    public String toString() {
+        return "Абонент{" +
+                "id = '" + id + '\'' +
+                ", Фамилия = '" + surname + '\'' +
+                ", Имя = '" + name + '\'' +
+                ", Отчество = '" + patronymic + '\'' +
+                ", Адресс = '" + address + '\'' +
+                ", Время разговора = '" + callTime + '\'' +
+                ", Номер кредитки = '" + creditCard + '\'' +
+                ", Задолженность = '" + debt + '\'' +
+                '}';
+    }
 }
